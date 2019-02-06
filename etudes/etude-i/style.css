@@ -1,0 +1,33 @@
+ @import url("https://use.typekit.net/fbg8aff.css");
+
+body {
+  display: grid;
+  grid-template-columns: 600px;
+  grid-template-rows: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1  {
+  font-family: botanika-mono-web, monospace;
+  font-weight: 400;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  color: rgba(255,255,255,0.9);
+  grid-column-start: 1;
+  grid-row-start: 1;
+  position: relative;
+  left: 32px;
+  top: 10px;
+}
+h2 {
+  position: relative;
+  left: 700px;
+}
+
+.image {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  padding: 0px;
+  margin: 0px;
+}

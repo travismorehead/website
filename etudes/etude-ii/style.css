@@ -1,0 +1,94 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre,
+a, img, var, ul, li,{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html{
+	background-color: rgb(250,250,250);
+}
+body{
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr 160px 160px 160px 160px 160px 160px 1fr;
+	grid-gap: 3px;
+	grid-template-rows: 1fr 284px 284px 284px 1fr;
+}
+.one{
+	grid-column-start: 2;
+	grid-row-start: 2;
+}
+.two{
+	grid-column-start: 3;
+	grid-row-start: 2;
+}
+.three{
+	grid-column-start: 4;
+	grid-row-start: 2;
+}
+.four{
+	grid-column-start: 5;
+	grid-row-start: 2;
+}
+.five{
+	grid-column-start: 6;
+	grid-row-start: 2;
+}
+.six{
+	grid-column-start: 7;
+	grid-row-start: 2;
+}
+.seven{
+	grid-column-start: 2;
+	grid-row-start: 3;
+}
+.eight{
+	grid-column-start: 3;
+	grid-row-start: 3;
+}
+.nine{
+	grid-column-start: 4;
+	grid-row-start: 3;
+}
+.ten{
+	grid-column-start: 5;
+	grid-row-start: 3;
+}
+.eleven{
+	grid-column-start: 6;
+	grid-row-start: 3;
+}
+.twelve{
+	grid-column-start: 7;
+	grid-row-start: 3;
+}
+.thirteen{
+	grid-column-start: 2;
+	grid-row-start: 4;
+}
+.fourteen{
+	grid-column-start: 3;
+	grid-row-start: 4;
+}
+.fifteen{
+	grid-column-start: 4;
+	grid-row-start: 4;
+}
+.sixteen{
+	grid-column-start: 5;
+	grid-row-start: 4;
+}
+.seventeen{
+	grid-column-start: 6;
+	grid-row-start: 4;
+}
+.eighteen{
+	grid-column-start: 7;
+	grid-row-start: 4;
+}
+div:hover{
+  cursor: all-scroll;
+}

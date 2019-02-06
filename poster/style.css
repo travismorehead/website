@@ -1,0 +1,185 @@
+
+
+body {
+  background: rgb(245, 245, 244);
+  position: relative;
+}
+.container {
+  max-height: 960px;
+  max-width: 680px;
+  display: grid;
+  grid-template-columns: 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px;
+  grid-template-rows: 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px 68px;
+  margin: 50px 50px;
+}
+@keyframes gray1 {
+  0%   {left:0px; top:-33px;}
+  25%  {left:136px; top:136px;}
+  50%  {left:136px; top:136px;}
+  75% {left:136px; top:136px;}
+  100% {left:0px; top:-33px;}
+}
+.boxgray1 {
+  width: 55px;
+  height: 55px;
+  background: rgb(136, 131, 135);
+  grid-column-start: 6;
+  grid-row-start: 5;
+  position: relative;
+  bottom: 33px;
+  animation-name: gray1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes blue {
+  0%   {left:20px; top:0px;}
+  25%   {left:0px; top:0px;}
+  50%  {left:68px; top:-68px;}
+  75%  {left:68px; top:0px;}
+  100% {left:20px; top:0px;}
+}
+.boxblue {
+  width: 55px;
+  height: 55px;
+  background: rgb(50, 85, 143);
+  grid-column-start: 3;
+  grid-row-start: 7;
+  position: relative;
+  left: 20px;
+  animation-name: blue;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes black1 {
+  0%   {left:7px; top:0px;}
+  25%  {left:-68px; top:-68px;}
+  50%  {left:-68px; top:-68px;}
+  75% {left:-68px; top:-68px;}
+  100% {left:7px; top:0px;}
+}
+.boxblack1 {
+  width: 55px;
+  height: 55px;
+  background: rgb(21, 25, 28);
+  grid-column-start: 4;
+  grid-row-start: 7;
+  position: relative;
+  left: 7px;
+  animation-name: black1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.boxred {
+  width: 55px;
+  height: 55px;
+  background: rgb(187, 36, 55);
+  grid-column-start: 6;
+  grid-row-start: 7;
+}
+@keyframes black2 {
+  0%   {left:30px; top:0px;}
+  25%  {left:-68px; top:-68px;}
+  50%  {left:-68px; top:-68px;}
+  75% {left:-68px; top:-68px;}
+  100% {left:30px; top:0px;}
+}
+.boxblack2 {
+  width: 55px;
+  height: 55px;
+  background: rgb(21, 25, 28);
+  grid-column-start: 7;
+  grid-row-start: 7;
+  position: relative;
+  left: 30px;
+  animation-name: black2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes yellow {
+  0%   {left:5px; top:0px;}
+  25%  {left:-68px; top:-68px;}
+  50%  {left:-134px; top:-68px;}
+  75% {left:5px; top:0px;}
+  100% {left:5px; top:0px;}
+}
+.boxyellow {
+  width: 55px;
+  height: 55px;
+  background: rgb(215, 188, 75);
+  grid-column-start: 9;
+  grid-row-start: 7;
+  position: relative;
+  left: 5px;
+  animation-name: yellow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes gray2 {
+  0%   {left:0px; top:1px;}
+  25%  {left:-68px; top:-68px;}
+  50%  {left:-68px; top:-68px;}
+  75% {left:-68px; top:-68px;}
+  100% {left:0px; top:1px;}
+}
+.boxgray2 {
+  width: 55px;
+  height: 55px;
+  background: rgb(136, 131, 135);
+  grid-column-start: 6;
+  grid-row-start: 8;
+  position: relative;
+  top: 1px;
+  position: relative;
+  animation-name: gray2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  letter-spacing: -1.5px;
+  font-weight: 700;
+  color: rgb(21, 25, 28);
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+.bigpeople {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  letter-spacing: -1.5px;
+  line-height: 36px;
+  font-weight: 700;
+  color: rgb(21, 25, 28);
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 11;
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+}
+.sparselines {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.58em;
+  font-weight: 700;
+  line-height: 10px;
+  color: rgb(21, 25, 28);
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 11;
+}
+.smalltext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.58em;
+  font-weight: 700;
+  line-height: 10px;
+  color: rgb(21, 25, 28);
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 11;
+  position: relative;
+  left: 30px;
+}

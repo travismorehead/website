@@ -1,0 +1,72 @@
+/* reset */
+html, body, div,
+      h1, h2, h3, h4, h5, h6, p,
+      a, article, canvas, footer, header, section {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+html{
+  background-color: rgb(250,250,250);
+}
+body{
+  width: 902px;
+  margin: 0 auto;
+}
+.linebase{
+  width: 3px;
+  height: 150px;
+  background-color: rgb(250,250,250);
+  position: relative;
+  left: 425px;
+  top: 355px;
+  z-index: 1;
+}
+.lineleft{
+  width: 3px;
+  height: 30px;
+  background-color: rgb(250,250,250);
+  position: relative;
+  left: 416px;
+  top: 327px;
+  transform: rotate(-35deg);
+  z-index: 1;
+}
+.lineright{
+  width: 3px;
+  height: 30px;
+  background-color: rgb(250,250,250);
+  position: relative;
+  left: 434px;
+  top: 297px;
+  transform: rotate(35deg);
+  z-index: 1;
+}
+h1{
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: 200;
+  font-size: 41px;
+  line-height: 1.38em;
+  color: rgb(250,250,250);
+  width: 405px;
+  position: relative;
+  left: 225px;
+  top: 425px;
+  z-index: 1;
+  padding-top: 800px;
+  padding-bottom: 800px;
+}
+a{
+ color: rgb(250,250,250);
+ text-decoration: none;
+}
+a:hover{
+  text-decoration: line-through;
+}
+.tire{
+  position: fixed;
+  top: 170px;
+}

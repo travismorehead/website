@@ -1,0 +1,77 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre,
+a, img, var, ul, li,{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html{
+  margin-top: 25px;
+  background-color: rgb(15,15,15);
+}
+
+body{
+  width: 1100px;
+  display: grid;
+  grid-template-columns: 1fr 250px 250px 250px 250px 1fr;
+  grid-template-rows: 1fr 500px 500px 1fr;
+  grid-gap: 40px;
+  font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.15em;
+  color: rgb(250,250,250);
+  margin: 0 auto;
+}
+h1{
+  font-size: 47px;
+	line-height: 1.1em;
+	padding-right: 4px;
+  position: relative;
+  bottom: 20px;
+}
+a{
+  font-size: 24px;
+  color: inherit;
+}
+.title{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.one{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.two{
+  grid-column-start: 3;
+  grid-row-start: 1;
+	position: relative;
+	padding-right: 3px;
+}
+.three{
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+.four{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.five{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+.six{
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+.seven{
+  grid-column-start: 4;
+  grid-row-start: 2;
+}
+@media only screen and (max-width: 812px) {
+	body{
+    display: block;
+    width: 250px;
+  }
+}

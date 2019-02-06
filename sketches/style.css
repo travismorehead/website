@@ -1,0 +1,31 @@
+html, body, div,
+      h1, h2, h3, h4, h5, h6, p,
+      a, article, canvas, footer, header, section {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+body{
+  width: 1300px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1299px) {
+  body {
+    width: 650px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 812px) {
+body {
+width: 300px;
+margin: 0 auto;
+}
+img{
+  margin: auto;
+  height: 80%;
+  width: 80%;
+}
+}
